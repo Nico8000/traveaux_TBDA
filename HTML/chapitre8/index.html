@@ -8,15 +8,80 @@
 </head>
 <body>
     
-<bodyhead>
+
 <body>
    <h2> Formulaires</h2>
-<p>vos cordonnées</p>
+<p>Vos cordonnées</p>
 <form method="post" action="htpp:/bienvu.net/script.php"></form>
 <div>
-<label for="nom"></label>
+<label for="nom">Votre nom*:</label>
+<input type="text" id="nom" name="nom" required="">
+</div>
+<div>
+    <label for="prénom"> Votre prénom*: </label>
+
+    <input type="text" id="prenom" name="prenom" required>
+</div>
+<div>
+  <label for="sexe">Sexe* :</label>
+  <input type="radio" name="sexe" value="masculin"> masculin
+  <input type="radio" name="féminin" value="féminin"> féminin
+</div>
+<div>
+  <label for="date_naissance">Date de naissance* :</label>
+  <input type="date" id="date_naissance" name="date_naissance" required>
+</div>
+<div>
+  <label for="code_postal">Code postal* :</label>
+  <input type="text" id="code_postal" name="code_postal" required>
+</div>
+<div>
+  <label for="adresse">Adresse :</label>
+  <input type="text" id="adresse" name="adresse">
+</div>
+<div>
+  <label for="ville">Ville :</label>
+  <input type="text" id="ville" name="ville">
+</div>
+<div>
+  <label for="email">Email* :</label>
+  <input type="email" id="email" name="email" required>
+</div>
+<br>
+  <p>Votre demande</p>
+  <div>
+   <!-- La différence entre GET et POST est que l'URL change pour GET il prend les données que nous inscrivons dans le formulaire
+  et pour POST il ne prend en compte que le site où l'on va. -->
+    <form method="POST" action="http://bienvu.net/script.php"></form>
+      <div>
+        <label for="sujet">Sujet* :</label>
+        <select id="sujet" name="sujet" required>
+          <option value="">Veuillez sélectionner un sujet</option>
+          <option value="commandes">Mes commandes</option>
+          <option value="question_produit">Question sur un produit</option>
+          <option value="reclamation">Réclamation</option>
+          <option value="autres">Autres</option>
+        </select>
+      </div>
+      <div>
+        <label for="question">Votre question :</label>
+        <textarea id="question" name="question"></textarea>
+      </div>
+      <form method="POST" action="http://bienvu.net/script.php">
+        <div>
+          <label for="traitement_informatique">J'accepte le traitement informatique de ce formulaire *:</label>
+          <input type="checkbox" id="traitement_informatique" name="traitement_informatique" required>
+           
+          <input type="submit" value="Envoyer">
+          <input type="button" value="Annuler">
+        </div>
+      </form>
+
+</form>
+</body>
+</html> 
 
 
 
 
-
+    
