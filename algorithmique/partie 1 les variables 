@@ -12,7 +12,7 @@ ex1.2
 rep: b=3,a=2 
 
 ex1.3
-rep: b=6,4=a
+rep: b=6,a=4
 
 ex1.4
 rep: a=13, c=13, b=13
@@ -21,4 +21,16 @@ ex1.5
 rep: a=2,b=5
 
 ex1.6
-rep: 
+rep: C<A ,A<B, B<C
+
+ex1.7
+rep: d<c, c<b, b<a, a<d
+
+ex1.8
+rep: Il produit une erreur d'exécution,car on ne peut pasadditionner des caractères. 
+
+ex1.9
+rep: IL produit des caractères qu'ont peuvent rassemblée (42312)
+
+
+     
