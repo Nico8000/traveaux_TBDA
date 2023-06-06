@@ -1,0 +1,28 @@
+
+                                Partie 2-Lectures et écriture
+                                énonce des exercices
+
+
+
+EX2.1
+rep: on verra apparaître à l'écran 231,puis 462 (qui vaut 231*2)
+
+Ex2.2
+rep: ECRIRE "entrez un nombre :"
+     LIRE nb 
+     carr < nb * nb
+     ECRIRE "son carré est:",carr
+
+
+Ex2.3
+rep:   ECRIRE"demandé son prénon"
+       lire "marie-cunégonde"
+       écrire "bonjour,marie cunégonde"
+
+ex2.4
+rep: ECRIRE "entrez le prix hors taxes:"
+     LIRE pht
+     ECRIRE "entrez le nombres articles :"
+     LIRE ttva
+     pttc < nb*pht (1+ttva)
+     ECRIRE "le prix totes taxes est :", pttc
