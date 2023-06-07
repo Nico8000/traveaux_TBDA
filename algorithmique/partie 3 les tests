@@ -1,0 +1,73 @@
+
+
+
+                                    PARTIE 3- Les tests
+                                    énonce les exercices 
+
+
+
+
+Ex3.1
+rep: ECRIRE"entrez un nombre : "
+     LIRE n
+     SI n > 0 ALORS
+        ECRIRE "Ce nombre est positif"
+     SINON
+        ECRIRE "Ce nombre est négatif"
+     FINSI
+
+Ex3.2
+rep: ECRIRE"entrez deux nombres :"
+     LIRE m,n
+     SI (m > 0 ET n < 0) OU (m < 0 ET n <0) ALORS
+     ECRIRE "Leurs produit est positif"
+     SINON
+     ECRIRE"Leur produit est négatif"
+     FINSI
+
+Ex3.3
+rep: ECRIRE "Entrez successivement trois noms : "
+     LIRE a,b,c 
+     SI a < b ET b < c ALORS
+     ECRIRE"Ces noms sont classés alphabétiquement"
+     SINON
+     ECRIRE " Ces noms ne sont pas classés"
+     FINSI
+
+
+
+ Ex3.4
+ rep:ECRIRE"entrez trois noms : "
+     LIRE a,b,C
+     SI a < b ET b < c ALORS
+      ECRIRE "ce nombre est négatif"
+ SINONSI n = 0 ALORS
+    ECRIRE "ce nombre est nul"
+SINON
+    ECRIRE "Ce nombre est positif"
+ FINSI
+
+
+Ex3.5
+rep: Ecrire "Entrez deux nombres : "
+Lire m, n
+Si m = 0 OU n = 0 Alors
+  Ecrire "Le produit est nul"
+SinonSi (m < 0 ET n < 0) OU (m > 0 ET n > 0) Alors
+  Ecrire "Le produit est positif"
+Sinon
+  Ecrire "Le produit est négatif"
+Finsi
+                                 
+Ex3.6
+rep: Ecrire "Entrez l’âge de l’enfant : "
+Lire age
+Si age >= 12 Alors
+  Ecrire "Catégorie Cadet"
+SinonSi age >= 10 Alors
+  Ecrire "Catégorie Minime"
+SinonSi age >= 8 Alors
+  Ecrire "Catégorie Pupille"
+SinonSi age >= 6 Alors
+  Ecrire "Catégorie Poussin"
+Finsi
