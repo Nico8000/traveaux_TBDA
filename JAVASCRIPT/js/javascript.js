@@ -44,7 +44,7 @@ alert(d); */
 
 
 
-//Phase 7 Instruction conditionnelles et alternatives
+//Phase 7          Instruction conditionnelles et alternatives
 
 /*exo 1 Parité
 var nb = prompt("Veuillez saisir un nombre :");
@@ -178,8 +178,8 @@ alert(result); */
 
 //                       JS10 Les tableaux      
 
-
-/* const taille = parseInt(prompt("Entrez la taille du tableau :"));
+/*
+ const taille = parseInt(prompt("Entrez la taille du tableau :"));
 if (isNaN(taille) || taille <= 0) {
   alert("La taille du tableau doit être un nombre entier positif !");
 } else {
