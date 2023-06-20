@@ -95,8 +95,9 @@ if (resultat != undefined) {
   alert("Résultat : " + resultat);
 } */
 
-// JS 08 Les boucles
+// JS              08 Les boucles
 //voir exo 1 dans js08.html
+
 
 /*exo 2
 var N =  prompt("Veuillez insérer un nombre :");
