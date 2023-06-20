@@ -1,7 +1,7 @@
 //exo.js5 Affichage du texte
 
+
 /*
-ex1
 var reponse1 = prompt  ("saisissez votre nom");
 var reponse2 = prompt ("saissisez votre prénom");
 alert (" ton nom est  " + reponse1 + "\nton prénom est " + reponse2  ); */
@@ -9,8 +9,8 @@ alert (" ton nom est  " + reponse1 + "\nton prénom est " + reponse2  ); */
 /* ex1.1
   var nb1 = parseFloat (prompt ("Veuillez entrez le premier nombre"));
   var nb2 =parseFloat (prompt (" veuillez entrez le deuxième nombre"));
+/*
 
-*/
 
  /* ex1.2
  var tCelsius = prompt("Entrez lantempérature en degrés Celsius : ");
@@ -29,13 +29,12 @@ var db = b-- ;
 alert(db);
 alert (b) ; */
 
-/* ex1.2
+ /*ex1.2
 
 var a = 100;
 var c = 1.00;
  c += parseFloat (a);
  alert(c) ; */
-
 
 
 
