@@ -146,9 +146,9 @@ console.log("Le nombre de voyelles est : " + compteur); */
 //                                JS09 : Fonctions
 /*exo 1
 function produit() {
-  var x = parseInt(prompt("Veuillez insérer le premier nombre :"));
-  var y = parseInt(prompt("Veuillez insérer le multiplicateur :"));
-  if (isNaN(x) || isNaN(y)) {
+  var 1 = parseInt(prompt("Veuillez insérer le premier nombre :"));
+  var 2 = parseInt(prompt("Veuillez insérer le multiplicateur :"));
+  if (isNaN(1) || isNaN(2)) {
     alert("Veuillez saisir des nombres valides !");
     return;
   }
